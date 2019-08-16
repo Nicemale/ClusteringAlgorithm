@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 '''
 compute r(i,k),a(i,k)
+
+v0.0.1 this version could be drop into a endless loop
+v0.0.2 maintain two matrix RESPONSIBILITY and AVALIABLE, the fn c_r and c_a update
+       these matrix beside mutual computation
 '''
 
+
 class ag_compute:
+    '''
+     codeVer: 0.0.1
+    '''
     def __init__(self,data_set,max_recursion):
         self.data_set = data_set
         self.recursion = max_recursion
