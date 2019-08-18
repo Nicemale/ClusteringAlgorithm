@@ -87,7 +87,7 @@ while len(OMEGA):
                visitedVertext.append(point)
                # if the point is core object, then do :
                if OMEGA_cp.__contains__(point):
-                    OMEGA.remove(point)
+                    OMEGA_cp.remove(point)
                     #find out its neighbor point append into curr_queue:
                     print("pointOrder is:",point)
                     neighPoints = neigPtOfCoreObj[point] # [p1,p2..]
